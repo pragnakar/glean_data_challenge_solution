@@ -3,7 +3,7 @@
 ## Learning outcomes and Summary
 -	Please open the Jupyter notebook file with name “using_dask.ipynb” to have look at my challenge solution.
 -	I solved this challenge using Dask. I was eager to try it for the first time as I read that it is quite simple, and any code written using regular python can be tweaked easily to run using Dask. The design philosophy of Dask is advertised to reuse the interface of Pandas Data Frames and scikit learn to keep learning curve to minimum.  To bad, its just a good advertisement. While I was working, I realized not all functionality of Pandas data frame was implemented using Dask data frame. I was prototyping my solution using pandas frame and wanted to tweak it to work with Dask. This approach seems to be in efficient, I should have coded my solution to work with dask right from the start. I should have sticked to Spark 
--	My solution solved 3 out 4 logics which I was tasked to solve. I need to some more clarification to solve logic 4.
+-	My solution solved 3 out 4 logics which I was tasked to solve. I need to some more clarification to solve logic 4. still need to work on part 4
 -	Though my current solution works fine, I realize it is suboptimal. It can be tweaked to make it more efficient. I am unable to implement to those tweaks as I am concerned that I may end up introducing more bugs to my solution before deadline than improving solution.
 -	Datasets need to be larger than a certain threshold to really take advantage and get a feel of distributed frame works. The current dataset given is too small to take advantage of distributed frameworks. 
 -	I could have done better If I had more time to play around with my solution. 
